@@ -21,7 +21,7 @@ app.use(bodyParser.json());
 const server = http.createServer(app);
 
 server.listen(5000, ()=> {
-    console.log('Server running on http://localhost:8000/');
+    console.log('Server running on http://localhost:5000/');
 } );
 
 const MONGO_URL = "mongodb+srv://farwamarwat:<password>@cluster0.e8vpb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
